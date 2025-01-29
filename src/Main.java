@@ -39,10 +39,10 @@ public class Main {
 
         System.out.println();
         System.out.println("----- =====   Задание № 4   ===== -----");
-        age = 28;
-        if (age > 2 && age < 6) {
+        age = 2;
+        if (age >= 2 && age <= 6) {
             System.out.println("Если возраст человека равен " + age + " лет, то ему нужно ходить в детский сад.");
-        } else if (age > 7 && age < 17) {
+        } else if (age >= 7 && age <= 17) {
             System.out.println("Если возраст человека равен " + age + " лет, то ему нужно ходить в школу.");
         } else if (age >= 18 && age <= 24) {
             System.out.println("Если возраст человека равен " + age + " лет, то ему нужно учиться в университете.");
